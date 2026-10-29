@@ -120,7 +120,7 @@ void main() {
       final berlin = cities.firstWhere((c) => c.id == 'berlin');
       expect(berlin.isOfflineVerified, isTrue);
       expect(berlin.hasOfflineTiles, isTrue);
-      expect(berlin.formattedSize, '1.77 MB');
+      expect(berlin.formattedSize, '7.04 MB');
 
       final dresden = cities.firstWhere((c) => c.id == 'dresden');
       expect(dresden.isOfflineVerified, isFalse);

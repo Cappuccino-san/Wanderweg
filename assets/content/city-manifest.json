@@ -34,10 +34,10 @@
           "pack_file": "content/berlin-pack.json",
           "tiles_file": "content/berlin-tiles.mbtiles",
           "pack_size_bytes": 42658,
-          "tiles_size_bytes": 1810432,
-          "total_download_size_mb": 1.77,
+          "tiles_size_bytes": 7340032,
+          "total_download_size_mb": 7.04,
           "pack_sha256": "aa0e0da62c81ceda613c6c0f5548a5b90f345b49a6ae54a79dbcd4600ec1a662",
-          "tiles_sha256": "3eb79309b14e6f9de1bbee60e7d21b48be836b5d6e64e18f898994da14c0d0d2",
+          "tiles_sha256": "58fd4d8336732d2eeb9ebd50a37c899578fb29105da3060292f3e2b112ee8ac2",
           "stay_days_default": 1,
           "stay_days_user": 1,
           "stay_days_adjustable": true,
@@ -137,11 +137,11 @@
       "pack_file": "content/berlin-pack.json",
       "tiles_file": "content/berlin-tiles.mbtiles",
       "pack_size_bytes": 42658,
-      "tiles_size_bytes": 1810432,
-      "total_download_size_mb": 1.77,
-      "download_size_mb": 1.77,
+      "tiles_size_bytes": 7340032,
+      "total_download_size_mb": 7.04,
+      "download_size_mb": 7.04,
       "pack_sha256": "aa0e0da62c81ceda613c6c0f5548a5b90f345b49a6ae54a79dbcd4600ec1a662",
-      "tiles_sha256": "3eb79309b14e6f9de1bbee60e7d21b48be836b5d6e64e18f898994da14c0d0d2",
+      "tiles_sha256": "58fd4d8336732d2eeb9ebd50a37c899578fb29105da3060292f3e2b112ee8ac2",
       "stay_days_default": 1,
       "stay_days_user": 1,
       "stay_days_adjustable": true,
@@ -152,7 +152,7 @@
         "Reichstag",
         "Unter den Linden"
       ],
-      "notes": "East Side Gallery is handled as an eastward finish or separate transit segment, never forced on foot into the central walk. Verified offline with 219 bundled SQLite MBTiles."
+      "notes": "East Side Gallery is handled as an eastward finish or separate transit segment, never forced on foot into the central walk. Verified offline with 236 bundled SQLite MBTiles."
     },
     {
       "id": "dresden",

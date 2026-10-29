@@ -10,7 +10,7 @@ Built with Flutter following the Wanderweg specification.
 ## Wednesday Demo Status
 
 ### Cities & Content Packs
-- **Berlin**: Code- and test-verified prototype. Includes 3 walks and all confirmed anchors (*Brandenburg Gate, Reichstag, Unter den Linden, Checkpoint Charlie, East Side Gallery*). East Side Gallery is handled as an eastward finish / separate transit segment, never forced on foot into the central walk. Bundled with 1.77 MB SQLite MBTiles for full airplane-mode offline navigation.
+- **Berlin**: Code- and test-verified prototype. Includes 3 walks and all confirmed anchors (*Brandenburg Gate, Reichstag, Unter den Linden, Checkpoint Charlie, East Side Gallery*). East Side Gallery is handled as an eastward finish / separate transit segment, never forced on foot into the central walk. Bundled with 7.0 MB SQLite MBTiles (236 genuine OpenStreetMap pedestrian tiles) for full airplane-mode offline navigation.
 - **Dresden (Demo Proposal)**: Approved 1-day Baroque Spine (*Frauenkirche → Brühl's Terrace → Zwinger → Semperoper → Residenzschloss*) with Innere Neustadt extension across the Elbe. Marked as demo proposal until ground-walked.
 - **Leipzig (Demo Proposal)**: Approved 1-day central spine weaving Bach's musical legacy and the 1989 Peaceful Revolution (*Markt / Altes Rathaus → Nikolaikirche → Mädler Passage → Thomaskirche → Augustusplatz*). Marked as demo proposal until ground-walked.
 - **Austria (Schema Stub)**: Pure stub country in the manifest to demonstrate multi-country schema readiness with zero invented cities, anchors, or packs.
@@ -27,7 +27,7 @@ Built with Flutter following the Wanderweg specification.
    - Reorder trip cities with `[▲]` / `[▼]`.
    - Set stay length per city (defaults to 1 day, adjustable 1–7 days). Daily plans resize dynamically instead of cramming.
 2. **Offline-First Airplane Mode Architecture**:
-   - Bundles Berlin map tiles in SQLite MBTiles format (1.77 MB).
+   - Bundles Berlin map tiles in SQLite MBTiles format (7.0 MB).
    - Seamless airplane-mode map navigation with honest status indicators.
 3. **Appearance & Background**:
    - **Moon Mode Default**: High-contrast dark background (`#101418` dark canvas, `#192027` elevated cards, `#F2F5F8` text) optimized for outdoor night-walk readability and OLED battery saving.

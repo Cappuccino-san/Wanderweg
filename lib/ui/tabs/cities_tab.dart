@@ -96,7 +96,7 @@ class CitiesTab extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        '1 day per city by default, adjustable per city. Plans re-size instead of cramming. Berlin offline is verified (1.77 MB MBTiles); Dresden & Leipzig are demo packs with offline tiles pending.',
+                        '1 day per city by default, adjustable per city. Plans re-size instead of cramming. Berlin offline is verified (7.0 MB MBTiles); Dresden & Leipzig are demo packs with offline tiles pending.',
                         style: TextStyle(
                           fontSize: 12,
                           color: AppTheme.mutedText,
@@ -354,7 +354,7 @@ class CitiesTab extends StatelessWidget {
                               ),
                               Text(
                                 city.id == 'berlin'
-                                    ? 'PACK VERIFIED • Offline (1.77 MB)'
+                                    ? 'PACK VERIFIED • Offline (${city.formattedSize})'
                                     : 'DEMO PROPOSAL • Offline tiles pending',
                                 style: TextStyle(
                                   fontSize: 11,

@@ -38,7 +38,7 @@ void main() {
 
       // Verify honest formatted size
       expect(berlin.formattedSize, contains('MB'));
-      expect(berlin.totalDownloadSizeMb, closeTo(1.77, 0.1));
+      expect(berlin.totalDownloadSizeMb, closeTo(7.04, 0.1));
     });
 
     test('Manifest supports per-country and per-city hierarchy for expansion readiness', () {

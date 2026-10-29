@@ -100,18 +100,21 @@ class _MapTabState extends State<MapTab> {
                 key: ValueKey('tile_layer_${state.activeCityId}_${state.isAirplaneMode}_${state.isDarkMode}'),
                 urlTemplate: (state.isAirplaneMode || isBerlin)
                     ? 'assets/tiles/${state.activeCityId}/{z}/{x}/{y}.png'
-                    : 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                    : (state.isDarkMode
+                        ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
+                        : 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'),
+                subdomains: const ['a', 'b', 'c', 'd'],
                 tileProvider: (state.isAirplaneMode || isBerlin)
                     ? OfflineTileProvider(
                         cityId: state.activeCityId,
                         forceOfflineGrid: !state.packManager.isDownloaded(state.activeCityId),
                       )
-                    : NetworkTileProvider(headers: const {'User-Agent': 'Wanderweg-TourGuide/1.0 (demo@wanderweg.app)'}),
+                    : NetworkTileProvider(),
                 maxZoom: 16.0,
                 minZoom: 13.0,
                 maxNativeZoom: 16,
                 tileBuilder: (context, tileWidget, tile) {
-                  if (state.isDarkMode) {
+                  if (state.isDarkMode && (state.isAirplaneMode || isBerlin)) {
                     return ColorFiltered(
                       colorFilter: const ColorFilter.matrix(<double>[
                         -0.85, 0, 0, 0, 235,
@@ -283,7 +286,7 @@ class _MapTabState extends State<MapTab> {
                                         ? 'AIRPLANE MODE • OFFLINE MAP (ZERO DATA)'
                                         : 'AIRPLANE MODE • DEMO PACK (MAP TILES PENDING)')
                                     : (isBerlin
-                                        ? 'ONLINE • OFFLINE PACK READY (1.77 MB)'
+                                        ? 'ONLINE • OFFLINE PACK READY (7.0 MB)'
                                         : 'ONLINE • DEMO PACK (WEB TILES)'),
                                 style: TextStyle(
                                   fontSize: 11,

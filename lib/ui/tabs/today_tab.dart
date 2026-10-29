@@ -243,7 +243,7 @@ class TodayTab extends StatelessWidget {
                         const SizedBox(height: 2),
                         Text(
                           state.activeCityId == 'berlin'
-                              ? 'Berlin offline pack in use (1.77 MB MBTiles). Maps, stops, food, and journal run offline.'
+                              ? 'Berlin offline pack in use (7.0 MB MBTiles). Maps, stops, food, and journal run offline.'
                               : '$activeCityName demo pack in use. Neutral offline map canvas active (offline tiles pending).',
                           style: const TextStyle(
                             color: Colors.white70,

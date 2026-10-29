@@ -1,0 +1,216 @@
+{
+  "spec_version": "1.2",
+  "default_country": "de",
+  "policy": {
+    "booking": "none",
+    "payments": "none",
+    "affiliate_links": "none",
+    "account_required": false,
+    "offline_first": true
+  },
+  "countries": [
+    {
+      "id": "de",
+      "name_en": "Germany",
+      "name_de": "Deutschland",
+      "currency": "EUR",
+      "holiday_calendar": "de-DE",
+      "transit_types": [
+        "S-Bahn",
+        "U-Bahn",
+        "Tram",
+        "Bus"
+      ],
+      "cities": [
+        {
+          "id": "berlin",
+          "name_en": "Berlin",
+          "name_de": "Berlin",
+          "country_id": "de",
+          "status": "ready",
+          "is_prototype": true,
+          "is_offline_verified": true,
+          "pack_version": "1.2.0",
+          "pack_file": "content/berlin-pack.json",
+          "tiles_file": "content/berlin-tiles.mbtiles",
+          "pack_size_bytes": 42658,
+          "tiles_size_bytes": 1810432,
+          "total_download_size_mb": 1.77,
+          "pack_sha256": "aa0e0da62c81ceda613c6c0f5548a5b90f345b49a6ae54a79dbcd4600ec1a662",
+          "tiles_sha256": "3eb79309b14e6f9de1bbee60e7d21b48be836b5d6e64e18f898994da14c0d0d2",
+          "stay_days_default": 1,
+          "stay_days_user": 1,
+          "stay_days_adjustable": true,
+          "anchors_confirmed": [
+            "Brandenburg Gate",
+            "Berlin Wall at the East Side Gallery",
+            "Checkpoint Charlie",
+            "Reichstag",
+            "Unter den Linden"
+          ],
+          "notes": "East Side Gallery is handled as an eastward finish or separate transit segment, never forced on foot into the central walk. Verified offline with 219 bundled SQLite MBTiles."
+        },
+        {
+          "id": "dresden",
+          "name_en": "Dresden",
+          "name_de": "Dresden",
+          "country_id": "de",
+          "status": "demo",
+          "is_prototype": false,
+          "is_offline_verified": false,
+          "pack_version": "1.0.0-demo",
+          "pack_file": "content/dresden-pack.json",
+          "tiles_file": null,
+          "pack_size_bytes": 24952,
+          "tiles_size_bytes": 0,
+          "total_download_size_mb": 0.02,
+          "pack_sha256": "17360407e5dd151df66cd8322e35dfa8a2251a979c75335f461a54489954a84d",
+          "tiles_sha256": null,
+          "stay_days_default": 1,
+          "stay_days_user": 1,
+          "stay_days_adjustable": true,
+          "anchors_confirmed": [
+            "Frauenkirche",
+            "Brühl's Terrace along the Elbe",
+            "Zwinger",
+            "Semperoper",
+            "Residenzschloss"
+          ],
+          "notes": "Approved proposal for Wednesday demo. Core 1-day Baroque walk; Neustadt is an extension across the Elbe. Offline tiles pending (web/demo only for now)."
+        },
+        {
+          "id": "leipzig",
+          "name_en": "Leipzig",
+          "name_de": "Leipzig",
+          "country_id": "de",
+          "status": "demo",
+          "is_prototype": false,
+          "is_offline_verified": false,
+          "pack_version": "1.0.0-demo",
+          "pack_file": "content/leipzig-pack.json",
+          "tiles_file": null,
+          "pack_size_bytes": 17697,
+          "tiles_size_bytes": 0,
+          "total_download_size_mb": 0.02,
+          "pack_sha256": "cce02ed02668d78defb868732dda762a0628a21b849d494f103c79f9b083eecc",
+          "tiles_sha256": null,
+          "stay_days_default": 1,
+          "stay_days_user": 1,
+          "stay_days_adjustable": true,
+          "anchors_confirmed": [
+            "Markt / Altes Rathaus",
+            "Nikolaikirche",
+            "Thomaskirche",
+            "Mädler Passage",
+            "Augustusplatz"
+          ],
+          "notes": "Approved proposal for Wednesday demo. Bach musical legacy and 1989 Peaceful Revolution woven in. Offline tiles pending (web/demo only for now)."
+        }
+      ]
+    },
+    {
+      "id": "at",
+      "name_en": "Austria",
+      "name_de": "Österreich",
+      "currency": "EUR",
+      "holiday_calendar": "de-AT",
+      "transit_types": [
+        "U-Bahn",
+        "S-Bahn",
+        "Bim (Tram)",
+        "Bus"
+      ],
+      "cities": [],
+      "notes": "Stub country demonstrating multi-country schema readiness. No cities, anchors, or packs are bundled."
+    }
+  ],
+  "cities": [
+    {
+      "id": "berlin",
+      "name_en": "Berlin",
+      "name_de": "Berlin",
+      "country_id": "de",
+      "status": "ready",
+      "is_prototype": true,
+      "is_offline_verified": true,
+      "pack_version": "1.2.0",
+      "pack_file": "content/berlin-pack.json",
+      "tiles_file": "content/berlin-tiles.mbtiles",
+      "pack_size_bytes": 42658,
+      "tiles_size_bytes": 1810432,
+      "total_download_size_mb": 1.77,
+      "download_size_mb": 1.77,
+      "pack_sha256": "aa0e0da62c81ceda613c6c0f5548a5b90f345b49a6ae54a79dbcd4600ec1a662",
+      "tiles_sha256": "3eb79309b14e6f9de1bbee60e7d21b48be836b5d6e64e18f898994da14c0d0d2",
+      "stay_days_default": 1,
+      "stay_days_user": 1,
+      "stay_days_adjustable": true,
+      "anchors_confirmed": [
+        "Brandenburg Gate",
+        "Berlin Wall at the East Side Gallery",
+        "Checkpoint Charlie",
+        "Reichstag",
+        "Unter den Linden"
+      ],
+      "notes": "East Side Gallery is handled as an eastward finish or separate transit segment, never forced on foot into the central walk. Verified offline with 219 bundled SQLite MBTiles."
+    },
+    {
+      "id": "dresden",
+      "name_en": "Dresden",
+      "name_de": "Dresden",
+      "country_id": "de",
+      "status": "demo",
+      "is_prototype": false,
+      "is_offline_verified": false,
+      "pack_version": "1.0.0-demo",
+      "pack_file": "content/dresden-pack.json",
+      "tiles_file": null,
+      "pack_size_bytes": 24952,
+      "tiles_size_bytes": 0,
+      "total_download_size_mb": 0.02,
+      "download_size_mb": 0.02,
+      "pack_sha256": "17360407e5dd151df66cd8322e35dfa8a2251a979c75335f461a54489954a84d",
+      "tiles_sha256": null,
+      "stay_days_default": 1,
+      "stay_days_user": 1,
+      "stay_days_adjustable": true,
+      "anchors_confirmed": [
+        "Frauenkirche",
+        "Brühl's Terrace along the Elbe",
+        "Zwinger",
+        "Semperoper",
+        "Residenzschloss"
+      ],
+      "notes": "Approved proposal for Wednesday demo. Core 1-day Baroque walk; Neustadt is an extension across the Elbe. Offline tiles pending (web/demo only for now)."
+    },
+    {
+      "id": "leipzig",
+      "name_en": "Leipzig",
+      "name_de": "Leipzig",
+      "country_id": "de",
+      "status": "demo",
+      "is_prototype": false,
+      "is_offline_verified": false,
+      "pack_version": "1.0.0-demo",
+      "pack_file": "content/leipzig-pack.json",
+      "tiles_file": null,
+      "pack_size_bytes": 17697,
+      "tiles_size_bytes": 0,
+      "total_download_size_mb": 0.02,
+      "download_size_mb": 0.02,
+      "pack_sha256": "cce02ed02668d78defb868732dda762a0628a21b849d494f103c79f9b083eecc",
+      "tiles_sha256": null,
+      "stay_days_default": 1,
+      "stay_days_user": 1,
+      "stay_days_adjustable": true,
+      "anchors_confirmed": [
+        "Markt / Altes Rathaus",
+        "Nikolaikirche",
+        "Thomaskirche",
+        "Mädler Passage",
+        "Augustusplatz"
+      ],
+      "notes": "Approved proposal for Wednesday demo. Bach musical legacy and 1989 Peaceful Revolution woven in. Offline tiles pending (web/demo only for now)."
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "pack_format_version": "1.2",
+  "city": {
+    "id": "dresden",
+    "name_en": "Dresden",
+    "name_de": "Dresden",
+    "country": "Germany",
+    "center_coordinates": {
+      "latitude": 51.051883,
+      "longitude": 13.741522
+    },
+    "timezone": "Europe/Berlin",
+    "pack_version": "1.0.0-demo",
+    "download_size_mb": 0.03,
+    "last_verified_date": "unverified_demo",
+    "stay_days_default": 1,
+    "stay_days_user": 1,
+    "stay_days_adjustable": true,
+    "status": "demo",
+    "is_prototype": false,
+    "transit_summary": "DVB Straßenbahn (Tram), S-Bahn Dresden (S1/S2/S3), Bus, and Elbe passenger ferries. VVO single ticket €3.00, 1-day pass €8.00. Standard tariff zone covers the historical Altstadt and river crossings.",
+    "anchors_confirmed": [
+      "Frauenkirche",
+      "Brühl's Terrace along the Elbe",
+      "Zwinger",
+      "Semperoper",
+      "Residenzschloss"
+    ],
+    "notes": "Approved proposal for Wednesday demo. Core 1-day Baroque walk connects Neumarkt to Theaterplatz; Neustadt across the Elbe river is an optional extension."
+  },
+  "practical_notes": [
+    {
+      "topic": "closures",
+      "title": "Dresden Closures & Museum Ruhetage",
+      "short_text": "[Demo / Proposal] State art collections (SKD) mostly observe Monday closing days. Church visits pause during Sunday services.",
+      "longer_text": "Retail stores close on Sundays per Saxon shop closing laws. Most Staatliche Kunstsammlungen Dresden (SKD) museums observe Monday as their Ruhetag. The Frauenkirche pauses tourist visitation during Sunday church services (typically 10:00–11:30 and 18:00) but welcomes worshipers.",
+      "last_verified": "unverified_demo"
+    },
+    {
+      "topic": "money_and_tipping",
+      "title": "Saxon Dining & Trinkgeld",
+      "short_text": "[Demo / Proposal] Carry €20–€40 cash for traditional bakeries, beer gardens, and river ferries.",
+      "longer_text": "While cards are widely accepted in Altstadt restaurants and museum shops, smaller bakeries selling Dresdner Christstollen or Eierschecke often prefer cash. Round up bills by 5–10% when paying table service.",
+      "last_verified": "unverified_demo"
+    },
+    {
+      "topic": "water_and_toilets",
+      "title": "Elbe Promenades & Public Facilities",
+      "short_text": "[Demo / Proposal] Step-free public WCs located near Neumarkt underground parking and Theaterplatz.",
+      "longer_text": "Attended public toilets (€0.50–€1.00) are situated beneath Neumarkt square and near the Augustusbrücke bridgehead. Tap water in Dresden is exceptionally soft, drawn from the Ore Mountains catchment.",
+      "last_verified": "unverified_demo"
+    },
+    {
+      "topic": "manners_and_language",
+      "title": "Local Saxon Greetings & Etiquette",
+      "short_text": "[Demo / Proposal] Friendly local greetings and polite expressions in Saxony.",
+      "longer_text": "'Guten Tag' (Standard German greeting)\n'Glück Auf' (Traditional Saxon mining greeting often heard in the region)\n'Einmal Eierschecke und Kaffee bitte' (One slice of Eierschecke cake and coffee, please)\n'Zahlen bitte' (The bill, please)",
+      "last_verified": "unverified_demo"
+    }
+  ],
+  "walks": [
+    {
+      "id": "dresden-baroque-spine",
+      "title": "Dresden Baroque Spine: Frauenkirche, Zwinger & Elbe Terraces",
+      "city_id": "dresden",
+      "priority_tier": "core",
+      "themes": ["history", "essentials", "architecture", "rivers and views"],
+      "editorial_introduction": "[Demo / Proposal] The quintessential 1-day Dresden walk. Links the magnificent reconstructed Frauenkirche on Neumarkt to Brühl's Terrace above the Elbe, passing through the Zwinger courtyard, Semperoper, and Residenzschloss with its Fürstenzug porcelain mural. Flat, pedestrian-first, and zero backtracking.",
+      "who_will_love_it": "First-time visitors wanting an unhurried, panoramic walk connecting Dresden's iconic Baroque skyline on foot.",
+      "who_should_pick_another": "Travellers seeking lively alternative night culture; cross the Augustusbrücke to Innere Neustadt instead.",
+      "distance_km": 2.8,
+      "walking_minutes": 42,
+      "total_minutes_with_stops": 135,
+      "elevation": "Flat throughout; gentle stone ramp onto Brühl's Terrace.",
+      "surfaces": "Smooth sandstone pavers and historical cobblestone around Neumarkt.",
+      "start_transit": "Tram 1/2/4/12 to Altmarkt (300m) or 15-minute walk from Dresden Hauptbahnhof",
+      "end_transit": "Theaterplatz (Tram 4/8/9) or Postplatz (Tram hub 1/2/3/4/7/8/9/11/12)",
+      "nearest_stations_by_stop": {
+        "dresden-frauenkirche": "Pirnaischer Platz (300m) or Altmarkt (350m)",
+        "dresden-bruehls-terrace": "Synagoge (200m) or Theaterplatz (400m)",
+        "dresden-zwinger": "Postplatz (150m) or Theaterplatz (100m)",
+        "dresden-semperoper": "Theaterplatz (50m)",
+        "dresden-residenzschloss": "Theaterplatz (150m) or Postplatz (250m)"
+      },
+      "best_time_of_day": "Morning to mid-afternoon (10:00–16:00) when church bells chime and Elbe steamers cruise past.",
+      "unsuitable_days": ["Monday"],
+      "weather_variant_note": "If rain begins, take sheltered passage through the Zwinger colonnade arcades or the enclosed glass dome courtyard of the Residenzschloss.",
+      "stops": [
+        "dresden-frauenkirche",
+        "dresden-bruehls-terrace",
+        "dresden-zwinger",
+        "dresden-semperoper",
+        "dresden-residenzschloss"
+      ],
+      "food_positions": [
+        {
+          "position_order": 1,
+          "after_stop_id": "dresden-bruehls-terrace",
+          "food_stop_id": "dresden-cafe-coselpalais",
+          "context_note": "[Demo / Proposal] Sample local pause: Historic cafe near Neumarkt for tea and traditional Dresdner Eierschecke cake."
+        },
+        {
+          "position_order": 2,
+          "after_stop_id": "dresden-residenzschloss",
+          "food_stop_id": "dresden-sophienkeller",
+          "context_note": "[Demo / Proposal] Sample local pause: Traditional vaulted Saxon restaurant beside the Zwinger for lunch or hearty dinner."
+        }
+      ]
+    },
+    {
+      "id": "dresden-neustadt-extension",
+      "title": "Neustadt Extension: Augustusbrücke & Golden Rider",
+      "city_id": "dresden",
+      "priority_tier": "extension",
+      "themes": ["rivers and views", "history", "culture"],
+      "editorial_introduction": "[Demo / Proposal] Crosses the historic Augustusbrücke over the Elbe River into Innere Neustadt. Extends the day with wide views of the Altstadt silhouette, the gleaming equestrian Goldener Reiter statue, and tree-lined pedestrian avenues. Sized as an optional extension, never forced into the core Altstadt loop.",
+      "who_will_love_it": "Walkers with energy for an extra hour who want the classic 'Canaletto view' of Dresden across the Elbe river.",
+      "who_should_pick_another": "Travellers feeling fatigued after the Altstadt museums; save this for Day 2.",
+      "distance_km": 2.2,
+      "walking_minutes": 32,
+      "total_minutes_with_stops": 75,
+      "elevation": "Gentle bridge incline over the Elbe.",
+      "surfaces": "Level granite bridge sidewalk and tree-shaded flagstones.",
+      "start_transit": "Theaterplatz (Tram 4/8/9)",
+      "end_transit": "Albertplatz (Tram 3/6/7/8/11) or Neustadt S-Bahn Station",
+      "nearest_stations_by_stop": {
+        "dresden-residenzschloss": "Theaterplatz (150m)",
+        "dresden-augustusbruecke": "Theaterplatz (100m) or Neustädter Markt (150m)",
+        "dresden-goldener-reiter": "Neustädter Markt (50m)"
+      },
+      "best_time_of_day": "Late afternoon or sunset for golden light reflecting on the Elbe.",
+      "unsuitable_days": [],
+      "weather_variant_note": "Can be breezy on the bridge during wind or rain; carry a windbreaker.",
+      "stops": [
+        "dresden-residenzschloss",
+        "dresden-augustusbruecke",
+        "dresden-goldener-reiter"
+      ],
+      "food_positions": [
+        {
+          "position_order": 1,
+          "after_stop_id": "dresden-goldener-reiter",
+          "food_stop_id": "dresden-watzke-am-goldenen-reiter",
+          "context_note": "[Demo / Proposal] Sample local pause: Historic brewery inn near the bridgehead for house-brewed Saxon beer and pretzels."
+        }
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": "dresden-frauenkirche",
+      "name_en": "Frauenkirche (Church of Our Lady)",
+      "name_de": "Dresdner Frauenkirche",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.051883,
+        "longitude": 13.741522
+      },
+      "category": "monument",
+      "what_am_i_looking_at": "George Bähr's 18th-century masterpiece of Lutheran Baroque church architecture, crowned by its massive 12,000-ton sandstone 'stone bell' dome rising over Neumarkt.",
+      "why_it_matters": "Collapsed after the devastating bombing of February 1945 and preserved for 50 years as a blackened anti-war ruin, it was painstakingly reconstructed between 1994 and 2005 through worldwide donations as an enduring global symbol of peace and reconciliation.",
+      "what_to_notice": "Notice the dark, fire-blackened stones scattered across the pale sandstone facade: each is an original 18th-century block salvaged from the rubble pile and repositioned using 3D computer archaeology.",
+      "dwell_time_minutes": 30,
+      "local_tip": "[Demo / Proposal] Entry to the nave for prayer and silent viewing is free (daily outside church services). The dome climb requires a paid ticket and offers breathtaking 360° views across the Elbe valley.",
+      "entry_cost_band": "free",
+      "opening_hours": "Mon–Fri 10:00–12:00 & 13:00–18:00, Sun 13:00–18:00 (Subject to church services)",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Ground-floor sanctuary has level ramped access at Portal G.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-bruehls-terrace",
+      "name_en": "Brühl's Terrace along the Elbe",
+      "name_de": "Brühlsche Terrasse",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.053150,
+        "longitude": 13.740800
+      },
+      "category": "street",
+      "what_am_i_looking_at": "A grand 500-meter elevated promenade stretching along the southern bank of the Elbe, historically nicknamed 'The Balcony of Europe'.",
+      "why_it_matters": "Constructed atop Dresden's 16th-century fortress bastions, it was landscaped as private pleasure gardens for Count Heinrich von Brühl before being opened to the public in 1814.",
+      "what_to_notice": "Look down at the river pier below to see the historic paddle steamers of the Saxon Steamship Company (Sächsische Dampfschiffahrt), the oldest and largest paddle steamer fleet in the world.",
+      "dwell_time_minutes": 25,
+      "local_tip": "[Demo / Proposal] Look for the thumbprint impression on the bronze garden terrace balustrade, said to have been made by Johann Friedrich Böttger, the alchemist who co-invented European white porcelain.",
+      "entry_cost_band": "free",
+      "opening_hours": "Open 24/7 (Public promenade)",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Gentle stone access ramp near the Albertinum and elevator near the Schlossbrücke.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-zwinger",
+      "name_en": "Zwinger Palace & Courtyard",
+      "name_de": "Dresdner Zwinger",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.053000,
+        "longitude": 13.733900
+      },
+      "category": "culture",
+      "what_am_i_looking_at": "An exquisite Baroque palace courtyard and pavilion complex designed by Matthäus Daniel Pöppelmann with sculptures by Balthasar Permoser, framing cascading fountains and manicured lawns.",
+      "why_it_matters": "Commissioned in 1709 by Augustus the Strong (Elector of Saxony and King of Poland) as an orangery and royal tournament festival court to rival Louis XIV's Versailles.",
+      "what_to_notice": "The gilded copper Polish royal crown atop the Kronentor gate, and the Glockenspiel Pavilion holding 40 chimes crafted from Meissen porcelain.",
+      "dwell_time_minutes": 35,
+      "local_tip": "[Demo / Proposal] Walking through the open courtyard grounds and walking the elevated gallery terrace is completely free. Entering the Old Masters Picture Gallery (Gemäldegalerie Alte Meister) requires paid tickets.",
+      "entry_cost_band": "free_to_view_outside",
+      "opening_hours": "Courtyard open daily 06:00–22:00. Galleries open Tue–Sun 10:00–18:00.",
+      "closing_days": ["Monday"],
+      "step_free_access": true,
+      "step_free_notes": "Courtyard gravel pathways have smooth paved perimeter tracks; ramps lead to pavilion terraces.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-semperoper",
+      "name_en": "Semperoper (Dresden Opera House)",
+      "name_de": "Semperoper",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.054500,
+        "longitude": 13.735200
+      },
+      "category": "monument",
+      "what_am_i_looking_at": "Dresden's high neo-Renaissance state opera house dominating Theaterplatz, designed by architect Gottfried Semper and flanked by the Elbe River.",
+      "why_it_matters": "Celebrated worldwide for its acoustic warmth and architectural grandeur. It hosted the world premieres of Wagner's 'Flying Dutchman' and 'Tannhäuser', as well as nine operas by Richard Strauss.",
+      "what_to_notice": "The dramatic bronze panther quadriga sculpture perched above the main portal, depicting Dionysus and Ariadne in a chariot drawn by four panthers.",
+      "dwell_time_minutes": 15,
+      "local_tip": "[Demo / Proposal] The exterior view from the center of Theaterplatz is magnificent and uncrowded in the morning. Interior guided tours run on selected afternoons when rehearsals permit.",
+      "entry_cost_band": "free_to_view_outside",
+      "opening_hours": "Exterior viewable 24/7 from Theaterplatz plaza.",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Theaterplatz plaza is completely flat and paved with smooth flagstones.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-residenzschloss",
+      "name_en": "Residenzschloss & Fürstenzug Mural",
+      "name_de": "Dresdner Residenzschloss & Fürstenzug",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.052700,
+        "longitude": 13.737000
+      },
+      "category": "government",
+      "what_am_i_looking_at": "The historic Renaissance castle and royal seat of Saxony's Wettin rulers, featuring the world-famous Fürstenzug (Procession of Princes) porcelain mural along its outer wall.",
+      "why_it_matters": "Served as the powerhouse of Saxon electoral rule for almost 800 years. Today it houses the historic Green Vault (Grünes Gewölbe) royal treasury and armor collections.",
+      "what_to_notice": "The Fürstenzug on Augustusstraße: at 102 meters long, it is made of roughly 23,000 Meissen porcelain tiles depicting 35 Saxon rulers — it miraculously survived the 1945 firestorm almost untouched.",
+      "dwell_time_minutes": 30,
+      "local_tip": "[Demo / Proposal] Stroll down Augustusstraße slowly to appreciate the detail of the porcelain tiles before entering the Renaissance courtyard under the transparent geodesic glass dome.",
+      "entry_cost_band": "free_to_view_outside",
+      "opening_hours": "Exterior & Fürstenzug open 24/7. Palace museums Wed–Mon 10:00–18:00.",
+      "closing_days": ["Tuesday"],
+      "step_free_access": true,
+      "step_free_notes": "Augustusstraße is a wide, level pedestrian street; palace courtyard has step-free automated glass doors.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-augustusbruecke",
+      "name_en": "Augustusbrücke (Augustus Bridge)",
+      "name_de": "Augustusbrücke",
+      "is_anchor": false,
+      "coordinates": {
+        "latitude": 51.055600,
+        "longitude": 13.738800
+      },
+      "category": "street",
+      "what_am_i_looking_at": "Historic sandstone arched bridge spanning the Elbe River between the Altstadt and Innere Neustadt, dedicated strictly to trams, pedestrians, and cyclists.",
+      "why_it_matters": "Originally documented in the 12th century and rebuilt under Augustus the Strong, it offers the celebrated 'Canaletto view' immortalized in Bernardo Bellotto's 18th-century paintings.",
+      "what_to_notice": "Pause midway across the bridge looking back south: the entire Baroque Altstadt ensemble (Frauenkirche dome, Cathedral tower, Castle, and Semperoper) aligns in a single panorama.",
+      "dwell_time_minutes": 15,
+      "local_tip": "[Demo / Proposal] The bridge is closed to private cars, making it one of the most peaceful river bridge walks in Central Europe.",
+      "entry_cost_band": "free",
+      "opening_hours": "Open 24/7",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Smooth paved pedestrian walkways on both sides with barrier-free bridgehead ramps.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-goldener-reiter",
+      "name_en": "Goldener Reiter (Golden Rider Statue)",
+      "name_de": "Goldener Reiter",
+      "is_anchor": false,
+      "coordinates": {
+        "latitude": 51.058300,
+        "longitude": 13.741400
+      },
+      "category": "monument",
+      "what_am_i_looking_at": "A glittering gilded equestrian monument of Augustus the Strong, clad in Roman armor and riding northeast toward his Polish kingdom.",
+      "why_it_matters": "Unveiled in 1736, it stands as the gateway symbol of Innere Neustadt, marking the entrance to the tree-lined pedestrian Hauptstraße.",
+      "what_to_notice": "The gold-leaf gilding: created with hammered Ducat gold leaf, reflecting the sun above Neustädter Markt.",
+      "dwell_time_minutes": 10,
+      "local_tip": "[Demo / Proposal] The broad pedestrian avenue Hauptstraße begins here with outdoor ice cream parlors and plane trees leading up to Albertplatz.",
+      "entry_cost_band": "free",
+      "opening_hours": "Open 24/7",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Neustädter Markt is completely flat and pedestrianized.",
+      "last_verified_date": "unverified_demo"
+    }
+  ],
+  "food_stops": [
+    {
+      "id": "dresden-cafe-coselpalais",
+      "name": "Grand Café im Coselpalais",
+      "coordinates": {
+        "latitude": 51.052400,
+        "longitude": 13.742400
+      },
+      "type": "cafe",
+      "cuisine": "Traditional Saxon Pastries & Specialty Coffee",
+      "price_band": "€€",
+      "signature_order": "Original Dresdner Eierschecke with fresh whipped cream and a pot of Darjeeling tea",
+      "opening_hours": "Daily 10:00–18:00 [Proposal / Demo]",
+      "closing_days": [],
+      "cash_only": false,
+      "cards_accepted": true,
+      "closed_sundays": false,
+      "kitchen_closes_early": false,
+      "good_in_rain": true,
+      "good_with_tired_feet": true,
+      "dietary_flags": ["vegetarian_options"],
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-sophienkeller",
+      "name": "Sophienkeller im Taschenbergpalais",
+      "coordinates": {
+        "latitude": 51.052200,
+        "longitude": 13.735800
+      },
+      "type": "traditional_restaurant",
+      "cuisine": "Saxon Ducal Feast & Hearty Regional Dishes",
+      "price_band": "€€",
+      "signature_order": "Roast pork shoulder with bread dumplings and red cabbage, served in a historic vaulted cellar",
+      "opening_hours": "Daily 11:30–23:00 [Proposal / Demo]",
+      "closing_days": [],
+      "cash_only": false,
+      "cards_accepted": true,
+      "closed_sundays": false,
+      "kitchen_closes_early": false,
+      "good_in_rain": true,
+      "good_with_tired_feet": true,
+      "dietary_flags": ["gluten_free_options", "vegetarian_options"],
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "dresden-watzke-am-goldenen-reiter",
+      "name": "Watzke am Goldenen Reiter",
+      "coordinates": {
+        "latitude": 51.058500,
+        "longitude": 13.741000
+      },
+      "type": "brewery_inn",
+      "cuisine": "House-Brewed Saxon Craft Beer & Traditional Pub Food",
+      "price_band": "€€",
+      "signature_order": "Watzke unpasteurized house Pilsner with warm beer pretzels and Saxon herb quark",
+      "opening_hours": "Daily 11:00–23:00 [Proposal / Demo]",
+      "closing_days": [],
+      "cash_only": false,
+      "cards_accepted": true,
+      "closed_sundays": false,
+      "kitchen_closes_early": false,
+      "good_in_rain": true,
+      "good_with_tired_feet": true,
+      "dietary_flags": ["vegetarian_options"],
+      "last_verified_date": "unverified_demo"
+    }
+  ],
+  "route_legs": [
+    {
+      "from_stop_id": "dresden-frauenkirche",
+      "to_stop_id": "dresden-bruehls-terrace",
+      "distance_m": 220,
+      "walk_minutes": 3,
+      "plain_instruction": "From the Frauenkirche portal, head northeast across Neumarkt and climb the gentle stone ramp beside the Albertinum onto the elevated terrace above the Elbe.",
+      "surface_notes": "Granite paving and gentle stone ramp; step-free.",
+      "indoor_alternative": null,
+      "path_coordinates": [
+        [51.051883, 13.741522],
+        [51.052200, 13.742000],
+        [51.052700, 13.741500],
+        [51.053150, 13.740800]
+      ]
+    },
+    {
+      "from_stop_id": "dresden-bruehls-terrace",
+      "to_stop_id": "dresden-zwinger",
+      "distance_m": 680,
+      "walk_minutes": 10,
+      "plain_instruction": "Follow the wide tree-lined promenade westward along the river, descend past the Schlossbrücke to Schlossplatz, and pass under the Georgentor archway into Theaterplatz toward the Zwinger gateway.",
+      "surface_notes": "Level flagstones and asphalt terrace promenade.",
+      "indoor_alternative": "Pass through the Royal Palace covered courtyard if heavy rain.",
+      "path_coordinates": [
+        [51.053150, 13.740800],
+        [51.053400, 13.739200],
+        [51.053600, 13.737800],
+        [51.053800, 13.736200],
+        [51.053400, 13.735000],
+        [51.053000, 13.733900]
+      ]
+    },
+    {
+      "from_stop_id": "dresden-zwinger",
+      "to_stop_id": "dresden-semperoper",
+      "distance_m": 240,
+      "walk_minutes": 4,
+      "plain_instruction": "Exit the Zwinger courtyard through the northern archway directly onto the open flagstones of Theaterplatz. The Semperoper facade stands immediately ahead on your left.",
+      "surface_notes": "Smooth granite pavers across Theaterplatz; level crosswalks.",
+      "indoor_alternative": "Colonnade galleries inside the Zwinger perimeter.",
+      "path_coordinates": [
+        [51.053000, 13.733900],
+        [51.053500, 13.734200],
+        [51.054100, 13.734600],
+        [51.054500, 13.735200]
+      ]
+    },
+    {
+      "from_stop_id": "dresden-semperoper",
+      "to_stop_id": "dresden-residenzschloss",
+      "distance_m": 310,
+      "walk_minutes": 5,
+      "plain_instruction": "Cross Theaterplatz eastward past the Cathedral toward the Residenzschloss courtyard, continuing around the corner onto Augustusstraße to view the full length of the Fürstenzug mural.",
+      "surface_notes": "Wide pedestrian plaza and flagstone streets; completely step-free.",
+      "indoor_alternative": "Glass-roofed inner courtyard of the Residenzschloss.",
+      "path_coordinates": [
+        [51.054500, 13.735200],
+        [51.054000, 13.735900],
+        [51.053500, 13.736500],
+        [51.053000, 13.736800],
+        [51.052700, 13.737000]
+      ]
+    },
+    {
+      "from_stop_id": "dresden-residenzschloss",
+      "to_stop_id": "dresden-augustusbruecke",
+      "distance_m": 350,
+      "walk_minutes": 5,
+      "plain_instruction": "Walk north across Schlossplatz to the southern bridgehead and step onto the pedestrian footpath of Augustusbrücke across the Elbe.",
+      "surface_notes": "Smooth bridge paving; dedicated pedestrian walkway.",
+      "indoor_alternative": null,
+      "path_coordinates": [
+        [51.052700, 13.737000],
+        [51.053400, 13.737500],
+        [51.054200, 13.738000],
+        [51.055600, 13.738800]
+      ]
+    },
+    {
+      "from_stop_id": "dresden-augustusbruecke",
+      "to_stop_id": "dresden-goldener-reiter",
+      "distance_m": 380,
+      "walk_minutes": 6,
+      "plain_instruction": "Cross the bridge to the Neustadt bank and proceed directly into Neustädter Markt. The gilded equestrian statue of Augustus the Strong stands in the center of the square.",
+      "surface_notes": "Wide pedestrian plaza; step-free.",
+      "indoor_alternative": null,
+      "path_coordinates": [
+        [51.055600, 13.738800],
+        [51.056600, 13.739500],
+        [51.057500, 13.740500],
+        [51.058300, 13.741400]
+      ]
+    }
+  ]
+}

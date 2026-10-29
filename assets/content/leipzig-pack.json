@@ -1,0 +1,333 @@
+{
+  "pack_format_version": "1.2",
+  "city": {
+    "id": "leipzig",
+    "name_en": "Leipzig",
+    "name_de": "Leipzig",
+    "country": "Germany",
+    "center_coordinates": {
+      "latitude": 51.340278,
+      "longitude": 12.374722
+    },
+    "timezone": "Europe/Berlin",
+    "pack_version": "1.0.0-demo",
+    "download_size_mb": 0.03,
+    "last_verified_date": "unverified_demo",
+    "stay_days_default": 1,
+    "stay_days_user": 1,
+    "stay_days_adjustable": true,
+    "status": "demo",
+    "is_prototype": false,
+    "transit_summary": "LVB Straßenbahn (Tram), S-Bahn Mitteldeutschland (underground City Tunnel), Bus. MDV zone 110 covers the historic center. Single ticket €3.20, 24-hour pass €8.80. Pedestrian-first core where almost every attraction is within 10 minutes walking.",
+    "anchors_confirmed": [
+      "Markt / Altes Rathaus",
+      "Nikolaikirche",
+      "Thomaskirche",
+      "Mädler Passage",
+      "Augustusplatz"
+    ],
+    "notes": "Approved proposal for Wednesday demo. Woven with the musical legacy of J.S. Bach and the civic courage of the 1989 Peaceful Revolution."
+  },
+  "practical_notes": [
+    {
+      "topic": "closures",
+      "title": "Leipzig Closures & Church Schedules",
+      "short_text": "[Demo / Proposal] Sunday retail shutdown applies. Churches welcome visitors between religious services.",
+      "longer_text": "Retail stores close on Sundays per German federal law. St. Nicholas and St. Thomas pause tourist visits during Sunday morning worship (10:00–11:30) and reopen for public viewing from around 12:00. State museums observe Monday Ruhetag.",
+      "last_verified": "unverified_demo"
+    },
+    {
+      "topic": "money_and_tipping",
+      "title": "Cash Culture & Local Pastries",
+      "short_text": "[Demo / Proposal] Carry €20–€40 cash for coffee houses and traditional bakery specialties.",
+      "longer_text": "Cards are standard in restaurants, but historic coffee houses and pastry shops like Cafe Kandler selling original Leipziger Lerchen appreciate cash for small orders. Round up bills 5–10% for table service.",
+      "last_verified": "unverified_demo"
+    },
+    {
+      "topic": "water_and_toilets",
+      "title": "Leipzig City Center Facilities",
+      "short_text": "[Demo / Proposal] Public restrooms located inside the underground Markt S-Bahn station and Mädler Passage.",
+      "longer_text": "Attended facilities (€0.50–€1.00) are located on the mezzanine of the Markt S-Bahn station and inside the central arcades. Tap water is safe and crisp throughout Leipzig.",
+      "last_verified": "unverified_demo"
+    },
+    {
+      "topic": "manners_and_language",
+      "title": "Bach Heritage & Freedom Spirit",
+      "short_text": "[Demo / Proposal] Polite local phrases and cultural reminders.",
+      "longer_text": "'Guten Tag' (Standard greeting)\n'Wir sind das Volk' (Historic 1989 chant: 'We are the people')\n'Einen Kaffee und eine Leipziger Lerche bitte' (A coffee and a Leipziger Lerche pastry, please)\n'Danke schön' (Thank you very much)",
+      "last_verified": "unverified_demo"
+    }
+  ],
+  "walks": [
+    {
+      "id": "leipzig-bach-revolution",
+      "title": "Leipzig Heritage: Bach, Passages & Peaceful Revolution",
+      "city_id": "leipzig",
+      "priority_tier": "core",
+      "themes": ["history", "essentials", "culture", "music"],
+      "editorial_introduction": "[Demo / Proposal] Leipzig's compact, pedestrian-first center in one unforgettable walk. From the historic Renaissance Market Square to St. Nicholas Church—where the 1989 Peaceful Revolution ignited—through the ornate Mädler Passage to Bach's St. Thomas Church, concluding at the grand Augustusplatz. Flat, car-free streets with zero backtracking.",
+      "who_will_love_it": "Anyone moved by classical music, civil rights courage, and atmospheric 19th-century merchant passages.",
+      "who_should_pick_another": "Walkers seeking vast riverside parks; explore the Clara-Zetkin-Park water loop instead.",
+      "distance_km": 2.6,
+      "walking_minutes": 38,
+      "total_minutes_with_stops": 130,
+      "elevation": "Completely flat throughout.",
+      "surfaces": "Smooth granite flagstones and pedestrian cobblestone around the Markt.",
+      "start_transit": "S-Bahn Leipzig Markt (City Tunnel S1/S2/S3/S4/S5/S6) or Tram 9 to Thomaskirche",
+      "end_transit": "Augustusplatz (Tram hub 4/7/8/10/11/12/15/16) or 500m walk to Leipzig Hauptbahnhof",
+      "nearest_stations_by_stop": {
+        "leipzig-markt": "S-Bahn Markt (50m)",
+        "leipzig-nikolaikirche": "S-Bahn Markt (250m) or Augustusplatz (300m)",
+        "leipzig-maedler-passage": "S-Bahn Markt (100m)",
+        "leipzig-thomaskirche": "Tram Thomaskirche (50m) or S-Bahn Markt (200m)",
+        "leipzig-augustusplatz": "Augustusplatz Tram (50m)"
+      },
+      "best_time_of_day": "Late morning (10:00–13:00) or mid-afternoon (14:00–17:00).",
+      "unsuitable_days": [],
+      "weather_variant_note": "If rain starts, duck into the Mädler Passage, Königshaus-Passage, or Messehof passages for sheltered shopping and cafes.",
+      "stops": [
+        "leipzig-markt",
+        "leipzig-nikolaikirche",
+        "leipzig-maedler-passage",
+        "leipzig-thomaskirche",
+        "leipzig-augustusplatz"
+      ],
+      "food_positions": [
+        {
+          "position_order": 1,
+          "after_stop_id": "leipzig-nikolaikirche",
+          "food_stop_id": "leipzig-cafe-kandler",
+          "context_note": "[Demo / Proposal] Sample local pause: Historic Saxon coffee house beside St. Nicholas Church for tea and fresh Leipziger Lerchen pastry."
+        },
+        {
+          "position_order": 2,
+          "after_stop_id": "leipzig-maedler-passage",
+          "food_stop_id": "leipzig-auerbachs-keller",
+          "context_note": "[Demo / Proposal] Sample local pause: Legendary historic tavern in the cellar of Mädler Passage immortalized in Goethe's Faust."
+        }
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": "leipzig-markt",
+      "name_en": "Markt & Altes Rathaus (Old Town Hall)",
+      "name_de": "Markt und Altes Rathaus",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.340278,
+        "longitude": 12.374722
+      },
+      "category": "square",
+      "what_am_i_looking_at": "Leipzig's historic central market square, framed by the 1556 Renaissance Altes Rathaus with its striking asymmetrical clock tower and shaded pedestrian arcade.",
+      "why_it_matters": "For centuries, Leipzig was the commercial crossroads of Europe's Via Regia and Via Imperii trade routes, home to celebrated trade fairs (Mustermesse) and a thriving book-printing industry.",
+      "what_to_notice": "Notice the asymmetrical placement of the Rathaus tower: architect Hieronymus Lotter placed it according to the Golden Ratio rather than dead center.",
+      "dwell_time_minutes": 20,
+      "local_tip": "[Demo / Proposal] The weekly farmers' market fills the cobblestones on Tuesdays and Fridays with fresh Saxon fruit, farm cheeses, and bread.",
+      "entry_cost_band": "free",
+      "opening_hours": "Square open 24/7. Town Hall museum Tue–Sun 10:00–18:00.",
+      "closing_days": ["Monday"],
+      "step_free_access": true,
+      "step_free_notes": "Markt square is level granite cobblestone; elevator down to S-Bahn platform at south end.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "leipzig-nikolaikirche",
+      "name_en": "Nikolaikirche (St. Nicholas Church)",
+      "name_de": "Nikolaikirche Leipzig",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.340050,
+        "longitude": 12.378770
+      },
+      "category": "monument",
+      "what_am_i_looking_at": "Leipzig's oldest church, founded in 1165 and celebrated for its breathtaking neoclassical interior with palm-tree column capitals and delicate pastel vaulting.",
+      "why_it_matters": "The spiritual epicenter of the 1989 Peaceful Revolution. Every Monday, citizens gathered here for peace prayers; on October 9, 1989, 70,000 unarmed demonstrators marched into the streets shouting 'Wir sind das Volk' (We are the people), breaking state oppression and catalyzing the fall of the Berlin Wall one month later.",
+      "what_to_notice": "Look up at the fluted columns crowned with pale green palm fronds, symbolizing peaceful hope. Outside in the courtyard, look at the Nikolaikirchhof peace column mimicking the interior palm pillars.",
+      "dwell_time_minutes": 30,
+      "local_tip": "[Demo / Proposal] Peace prayers (Friedensgebet) continue every Monday at 17:00. Step inside silently to absorb the living aura of civil rights courage.",
+      "entry_cost_band": "free",
+      "opening_hours": "Mon–Sat 10:00–18:00, Sun 12:00–18:00 (Visitor hours outside church services)",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Ramped barrier-free entrance at the north portal.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "leipzig-maedler-passage",
+      "name_en": "Mädler Passage & Auerbachs Keller",
+      "name_de": "Mädlerpassage und Auerbachs Keller",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.339200,
+        "longitude": 12.375200
+      },
+      "category": "street",
+      "what_am_i_looking_at": "Leipzig's grandest historic shopping arcade, a 140-meter glass-vaulted passage built in 1912 with an ornate bronze rotunda and the entrance to historic Auerbachs Keller.",
+      "why_it_matters": "Leipzig pioneered covered passage networks so 19th-century trade merchants and carriage goods could transit sheltered from rain and snow. Inside lies Auerbachs Keller, the 1525 tavern immortalized by Goethe in Faust.",
+      "what_to_notice": "The bronze statue group at the entrance to the cellar showing Mephistopheles bewitching the students and Faust riding a wine barrel. Rub Faust's left shoe for good luck!",
+      "dwell_time_minutes": 25,
+      "local_tip": "[Demo / Proposal] Walk through the side corridors connecting toward Neumarkt to see how the historical passage system links three city blocks indoors.",
+      "entry_cost_band": "free",
+      "opening_hours": "Passage open daily 08:00–22:00.",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Completely level tiled passageway with automatic glass entrance doors.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "leipzig-thomaskirche",
+      "name_en": "Thomaskirche & Bach Monument",
+      "name_de": "Thomaskirche und Bach-Denkmal",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.339444,
+        "longitude": 12.372500
+      },
+      "category": "monument",
+      "what_am_i_looking_at": "Late Gothic hall church world-famous as the home of Johann Sebastian Bach and the Thomanerchor (St. Thomas Boys Choir), holding Bach's tomb in its sanctuary choir.",
+      "why_it_matters": "J.S. Bach worked here as Thomaskantor and civic music director from 1723 until his death in 1750, composing the St. Matthew Passion, Christmas Oratorio, and hundreds of cantatas.",
+      "what_to_notice": "In the churchyard, inspect the bronze Bach statue: note his turned-out empty coat pocket symbolizing his lifelong struggle for municipal funding. Inside, view Bach's bronze burial tomb covered in fresh floral tributes.",
+      "dwell_time_minutes": 30,
+      "local_tip": "[Demo / Proposal] Admission is free. If you visit on Friday at 18:00 or Saturday at 15:00, you may hear the Thomanerchor choir perform Bach motets.",
+      "entry_cost_band": "free",
+      "opening_hours": "Daily 09:00–18:00 (Visitor hours outside church services)",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Step-free ramp at the south portal; level sanctuary floor.",
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "leipzig-augustusplatz",
+      "name_en": "Augustusplatz & City-Hochhaus",
+      "name_de": "Augustusplatz",
+      "is_anchor": true,
+      "coordinates": {
+        "latitude": 51.338800,
+        "longitude": 12.381100
+      },
+      "category": "square",
+      "what_am_i_looking_at": "A vast 40,000 m² cultural square flanked by the Gewandhaus concert hall, the Leipzig Opera House, the Paulinum University church, and the 142-meter City-Hochhaus tower.",
+      "why_it_matters": "The climactic gathering point where 70,000 peaceful demonstrators assembled in October 1989 facing police lines. Today it serves as Leipzig's cultural and intellectual heart.",
+      "what_to_notice": "The architecture of the Paulinum: completed in 2012 by Dutch architect Erick van Egeraat, it echoes the rose-window silhouette of the 13th-century St. Paul's University Church dynamited by the East German regime in 1968.",
+      "dwell_time_minutes": 25,
+      "local_tip": "[Demo / Proposal] Take the high-speed lift to the 29th-floor Panorama Tower observation deck atop the City-Hochhaus for sweeping views of Leipzig and Saxony.",
+      "entry_cost_band": "free",
+      "opening_hours": "Square open 24/7.",
+      "closing_days": [],
+      "step_free_access": true,
+      "step_free_notes": "Wide level pedestrian plaza with tactile paving and tram island ramps.",
+      "last_verified_date": "unverified_demo"
+    }
+  ],
+  "food_stops": [
+    {
+      "id": "leipzig-cafe-kandler",
+      "name": "Café Kandler am Nikolaikirchhof",
+      "coordinates": {
+        "latitude": 51.340300,
+        "longitude": 12.378400
+      },
+      "type": "cafe",
+      "cuisine": "Traditional Saxon Confectionery & Coffee",
+      "price_band": "€€",
+      "signature_order": "Original Leipziger Lerche (shortcrust pastry with almond, marzipan, and cherry filling) and a cup of Saxon Melange",
+      "opening_hours": "Daily 09:00–18:30 [Proposal / Demo]",
+      "closing_days": [],
+      "cash_only": false,
+      "cards_accepted": true,
+      "closed_sundays": false,
+      "kitchen_closes_early": false,
+      "good_in_rain": true,
+      "good_with_tired_feet": true,
+      "dietary_flags": ["vegetarian_options"],
+      "last_verified_date": "unverified_demo"
+    },
+    {
+      "id": "leipzig-auerbachs-keller",
+      "name": "Historisches Restaurant Auerbachs Keller",
+      "coordinates": {
+        "latitude": 51.339100,
+        "longitude": 12.375000
+      },
+      "type": "traditional_restaurant",
+      "cuisine": "Classic Saxon & Thuringian Specialties",
+      "price_band": "€€€",
+      "signature_order": "Leipziger Allerlei with tender veal and garden vegetables, or Saxon beef sauerbraten",
+      "opening_hours": "Daily 11:30–23:00 [Proposal / Demo]",
+      "closing_days": [],
+      "cash_only": false,
+      "cards_accepted": true,
+      "closed_sundays": false,
+      "kitchen_closes_early": false,
+      "good_in_rain": true,
+      "good_with_tired_feet": true,
+      "dietary_flags": ["gluten_free_options", "vegetarian_options"],
+      "last_verified_date": "unverified_demo"
+    }
+  ],
+  "route_legs": [
+    {
+      "from_stop_id": "leipzig-markt",
+      "to_stop_id": "leipzig-nikolaikirche",
+      "distance_m": 350,
+      "walk_minutes": 5,
+      "plain_instruction": "From the Altes Rathaus facade, head east through Grimmaische Straße and turn left onto Nikolaistraße into the quiet, pedestrianized Nikolaikirchhof plaza.",
+      "surface_notes": "Granite paving; pedestrian zone with no vehicle traffic.",
+      "indoor_alternative": null,
+      "path_coordinates": [
+        [51.340278, 12.374722],
+        [51.340200, 12.376200],
+        [51.340150, 12.377600],
+        [51.340050, 12.378770]
+      ]
+    },
+    {
+      "from_stop_id": "leipzig-nikolaikirche",
+      "to_stop_id": "leipzig-maedler-passage",
+      "distance_m": 320,
+      "walk_minutes": 5,
+      "plain_instruction": "Walk back west down Grimmaische Straße toward the Markt, turning south into the monumental stone portal of the Mädler Passage.",
+      "surface_notes": "Level outdoor pavers transition into smooth polished indoor passage tiles.",
+      "indoor_alternative": "Pass through Königshaus-Passage or Messehof-Passage.",
+      "path_coordinates": [
+        [51.340050, 12.378770],
+        [51.339800, 12.377000],
+        [51.339500, 12.375800],
+        [51.339200, 12.375200]
+      ]
+    },
+    {
+      "from_stop_id": "leipzig-maedler-passage",
+      "to_stop_id": "leipzig-thomaskirche",
+      "distance_m": 420,
+      "walk_minutes": 6,
+      "plain_instruction": "Exit Mädler Passage to the west onto Thomasgasse. Follow the pedestrian lane straight to the green churchyard and Bach statue beside Thomaskirche.",
+      "surface_notes": "Smooth granite sidewalks and quiet pedestrian streets.",
+      "indoor_alternative": null,
+      "path_coordinates": [
+        [51.339200, 12.375200],
+        [51.339300, 12.374200],
+        [51.339400, 12.373200],
+        [51.339444, 12.372500]
+      ]
+    },
+    {
+      "from_stop_id": "leipzig-thomaskirche",
+      "to_stop_id": "leipzig-augustusplatz",
+      "distance_m": 720,
+      "walk_minutes": 10,
+      "plain_instruction": "From the Bach monument, retrace east through Thomasgasse, cross the Markt, and follow Grimmaische Straße's wide pedestrian avenue all the way east until it opens onto the grand panorama of Augustusplatz.",
+      "surface_notes": "Wide pedestrian thoroughfare; completely flat and step-free.",
+      "indoor_alternative": "Passage walkways through Specks Hof.",
+      "path_coordinates": [
+        [51.339444, 12.372500],
+        [51.339400, 12.373800],
+        [51.339600, 12.375500],
+        [51.339700, 12.377200],
+        [51.339800, 12.379000],
+        [51.338800, 12.381100]
+      ]
+    }
+  ]
+}
